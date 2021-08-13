@@ -1,0 +1,508 @@
+*{
+            padding:0;
+            margin:0;
+            }
+            
+        
+       
+   
+        
+      
+     
+ 
+         #navbar{
+         position: sticky;
+         }   
+            i{
+            color: white;
+            }
+            
+            h2{
+            color: white;
+            }
+            
+            .topbar{
+            display: flex;
+            height:7%;
+            width:100%; 
+            background: black; 
+            align-item: center;
+            cursor:pointer;
+            position: sticky;
+            
+            
+            }
+            
+            .logo{
+            text-align: center;
+            width:10%;
+            padding:0px;
+            margin-top:1.5%;
+             }
+             
+            .menubtn{
+            width:30%;
+            text-align: center;
+            margin-top:3%;
+            
+            
+             }
+            
+            
+         
+           
+            
+            .fa-bars{
+            padding:10px;
+         background: red;
+         border: solid 1px  red; 
+         border-radius:20px;
+          }
+            
+         
+          .name{
+            width:17 %; 
+            margin-top:3%;
+            margin-left:10 px ;
+            font-family: Tahoma;
+            }
+            
+            
+            .search {
+           margin-top:2.2%;
+           margin-left:15%;
+           width:auto;
+          
+          
+            }
+            
+            .search input{
+            background: red;
+            color: white; 
+            outline: none;
+            border: none;
+            display: none;
+            }
+            .sii{
+            background: red;
+            padding:10px;
+            border: solid 5 px red;
+            border-radius:80px;
+            }
+            
+            .fa-search{
+            margin-left:10px;
+            background: red;
+            padding:0px 10px 10px 10px;
+            border: solid 0px black;
+            border-radius:20px;
+            
+            }
+            
+            .search:hover{
+            margin-top:2.2%;
+            margin-left:15%;
+            
+            }
+            .search:hover input{
+            background: red;
+            color: white; 
+            outline: none;
+            border: none;
+            display: inline ;
+            }
+            
+            .search:hover .fa-search{
+            margin-left:10px;
+            background: black;
+            padding:10px;
+            border: solid 0px black;
+            border-radius:20px;
+            }
+            
+            li {
+            list-style: none;
+           
+            }
+             .mli{
+             background: red; 
+             display: none ;
+             margin-top:50px;
+             }
+           
+           
+            
+           
+           .animals{ 
+           
+           display: none;     
+           text-decoration: none;
+           color: green;
+           }  
+         .search   ul{
+           list-style: none;
+           background: red; 
+           
+           }
+            
+         .lol:hover .mli{
+         display: block; 
+         background: #000066;
+         margin-top:0px;
+         }  
+           
+         
+       ::-webkit-input-placeholder{
+       color: white;
+       }
+     
+       .menubtn ul li a{
+       text-decoration:none; 
+       color: white;
+       }
+        
+          
+      .menubtn ul li ul a{
+      text-decoration:none;
+      color: white;
+      }
+           
+      .menubtn ul li ul {
+      display: none;
+      
+      }
+      
+      .menubtn ul li:hover ul{
+      display: block;
+    
+      }
+      
+      
+      
+     .home{
+     margin-top:180px;
+     font-family:Arial Narrow, sans-serif; 
+      
+     }
+     
+     .home img{
+     margin-top:100px;
+     }
+     
+     .home a{
+     text-decoration:none;
+     color: black;
+     text-align: center;
+     
+     
+     }
+     .home h1{
+     text-align: center;
+     }
+     .home .m{
+     text-align: center;
+     background: red;
+     padding:25px 0px;
+    }
+    
+    .home img{
+    height:600px;
+    width:980px;
+      margin:30px 0px 0px 0px;
+    }
+   
+   
+.gogo{
+display: right;
+}
+html{
+ scroll-behaviour: smooth;
+}
+
+#navbar{
+position:sticky;
+top:0px;
+}
+
+.list{
+float: right;
+}
+
+/* decoration of about us section*/
+
+#aboutus{
+text-align: center;
+margin:100px 0px;
+background: #B2B2B2;
+}
+
+#aboutus h1{
+padding-top:100px;
+margin:100px; 
+}
+
+
+/*Decoration of contact section*/
+
+#contact{
+
+margin-top:200px;
+background: #B2B2B2;
+text-align: center;
+}
+
+ #contact h1{
+padding-top:100px;
+}
+
+#contact img ,a{
+height:150px;
+margin-top:50px; 
+text-decoration: none;
+color: white;
+
+}
+#contact h3{
+margin-left:50px;
+}
+.Instagram{
+display: flex; 
+margin-left:34%;
+}
+
+.Instagram h3{
+margin-top:150px;
+margin-bottom:80px;
+}
+
+.Facebook{
+display: flex; 
+margin-left:34%;
+}
+
+.Facebook h3{
+margin-top:150px;
+margin-bottom:80px;
+}
+
+.YouTube{
+display: flex; 
+margin-left:34%;
+}
+
+.YouTube h3{
+margin-top:150px;
+margin-bottom:80px;
+}
+
+.Twitter{
+display: flex; 
+margin-left:34%;
+}
+
+.Twitter h3{
+margin-top:150px;
+margin-bottom:80px;
+}
+
+
+.telegram{
+display: flex; 
+margin-left:34%;
+}
+
+.telegram h3{
+margin-top:150px;
+margin-bottom:80px;
+}
+
+.discord{
+display: flex; 
+margin-left:34%;
+}
+
+.discord h3{
+margin-top:150px;
+margin-bottom:80px;
+}
+
+
+.WhatsApp{
+display: flex; 
+margin-left:34%;
+}
+
+.WhatsApp h3{
+margin-top:150px;
+margin-bottom:80px;
+}
+
+/*web2 stylesheet*/
+ .cn{
+ background :red;
+ text-align: center;
+ margin-top:50px;
+ }
+ 
+ 
+ /*footer section decoration*/
+ 
+ footer{
+ margin-top:10%;
+ margin-bottom:10%;
+ display: flex;
+ Font-size:50px;
+ background:red;
+ padding:10%;
+ }
+ footer img{
+ 
+ height:50px;
+ margin-left:18%; 
+ margin-right:4%;
+  
+ }
+ 
+ 
+ /*Motu patlu all season section decoration*/
+  
+  .mseason h1{
+  text-align: center;
+  margin-top:10%;
+  background :red;
+  }
+ .mseason img{
+ height:600px;
+ width:980px;
+ margin-top:15%;
+ }
+ 
+ .mpas h1{
+ display: block;
+ color: black;
+  margin-top:3%;
+  background: none;
+ }
+ 
+ 
+ /*Motu patlu season 1 section decoration*/
+ 
+ .patlu img{
+ height :600px;
+ width:980px;
+ margin-top:10%;
+ }
+ .motu{
+ text-align: center;
+ }
+ .motu h1{
+ margin-top:10%;
+ font-size:35px;
+ }
+ 
+ .inline{
+margin-top:10%;
+border-bottom: solid 5px black;
+}
+
+.inline h3,a, button{
+Font-size:40px;
+margin-bottom:5%; 
+}
+
+.inline button{
+background: #00FF00;
+padding:3.5%;
+border-radius:110px;
+border: none;
+}
+
+.last{
+color:red;
+text-align :center;
+margin:5% 0% ;
+}
+
+/*Decoration section of comments*/
+
+
+#comment{
+margin:20% 0;
+text-align: center;
+border-top: solid 5px black;
+ border-bottom: solid 5px black;
+padding:10% 0;
+}
+#comment input{
+background: black; 
+width:75%;
+height:5%;
+border: none; 
+border-radius:100px; 
+text-align: center;
+font-size:60px;
+color: white; 
+margin:10% 0;
+padding:10%;
+outline: none;
+}
+
+#comment textarea{
+width:75%;
+color: white;
+border: none;
+background :black;
+font-size:60px;
+text-align: center;
+outline: none;
+}
+
+#comment h1{
+margin:10% 0;
+}
+
+#comment input  button{
+padding:5%;
+}
+
+#Container{
+display: flex;
+margin-top:100px;
+border-top: solid 5px black;
+padding-top:50px;
+border-bottom : solid 5px black;
+padding-bottom :50px;
+}
+#container img{
+height:300px;
+width:300px ; 
+margin-left:120px;  
+}
+ 
+ #Container h1 a{
+ color:black;
+ margin-left:50px;
+ font-size:70px;
+ padding-top:50px; 
+ } 
+ 
+ #Container h1 {
+ 
+
+ padding-top:50px; 
+ }
+ 
+ #btn{
+ margin:90px 20px 0px;
+ outline: none;
+ border: none ;
+ padding:2.5vh;
+ border-radius:5vh ;
+ background: red ;
+ color: white;
+ font-weight:bold  ;
+ } 
+ 
+.name{
+ number-align:center;
+ }
